@@ -6,6 +6,7 @@ import urllib.request, requests, os.path, ctypes, win10toast, json
 from pypac import PACSession
 from pypac.parser import PACFile
 from PIL import Image, ImageFont, ImageDraw
+#test
 
 notifymsg = 'today\'s Bing wallpaper'
 def save_img(img_url,dirname): #save downloaded file to directory: dirname
